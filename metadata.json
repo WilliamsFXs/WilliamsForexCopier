@@ -1,0 +1,15 @@
+{
+  "name": "WilliamsForexRobot",
+  "description": "A cloud-native gateway app for automated forex and crypto trade copying, leveraging WilliamsForexRobot infrastructure to connect users to MT4/MT5 automation tools.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "android": {
+    "package": "com.williamsforex.robot",
+    "permissions": [
+      "INTERNET",
+      "CAMERA"
+    ],
+    "virtualDomain": "https://appassets.androidapi.net"
+  }
+}
